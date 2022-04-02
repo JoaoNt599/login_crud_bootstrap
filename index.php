@@ -14,6 +14,7 @@ include_once 'includes/header.php';
 require_once 'php_action/conexao.php';
 ?> 
 
+<!-- bootstrap -->
 <div class="container">
 <div class="jumbotron bg-dark text-light">
 <h3 style="text-align:center" class="mt-3">Lista de Clientes</h3>
@@ -44,8 +45,6 @@ require_once 'php_action/conexao.php';
                 <td><?php echo $dados['idade']; ?></td>
                 <td><a href="editar.php?id=<?php echo $dados['id']; ?>" class="btn btn-warning">Editar Cliente<a> 
                     <a href="php_action/remover.php?id=<?php echo $dados['id']; ?> " class="btn btn-danger" name="btn-remover">Deletar Cliente<a><td>
-                
-                
             </tr>
             <?php endwhile; ?>
         </thead>
