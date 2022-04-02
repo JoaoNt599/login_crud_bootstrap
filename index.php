@@ -44,7 +44,7 @@ require_once 'php_action/conexao.php';
                 <td><?php echo $dados['email']; ?></td>
                 <td><?php echo $dados['idade']; ?></td>
                 <td><a href="editar.php?id=<?php echo $dados['id']; ?>" class="btn btn-warning">Editar Cliente<a> 
-                    <a href="php_action/remover.php?id=<?php echo $dados['id']; ?> " class="btn btn-danger" name="btn-remover">Deletar Cliente<a><td>
+                    <a href="php_action/remover.php?id=<?php echo $dados['id']; ?> " class="btn btn-danger" name="btn-remover">Deletar Cliente<a>
             </tr>
             <?php endwhile; ?>
         </thead>
@@ -56,5 +56,4 @@ require_once 'php_action/conexao.php';
 
 <?php
 include_once 'includes/footer.php';
-
 ?>
