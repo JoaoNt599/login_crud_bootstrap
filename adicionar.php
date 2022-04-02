@@ -4,11 +4,9 @@ include_once 'includes/header.php';
 ?>
 
 <div class="container">
-<div class="jumbotron bg-dark">
-<h3 style="text-align:center">Cadastro de Clientes</h3>
+    <div class="jumbotron bg-dark">
+    <h3 style="text-align:center">Cadastro de Clientes</h3>
 </div>
-
-
 
 <form action="php_action/criar.php" method="post" width='55%' height='50%'>
     <label for="nome">Nome</label ><br>
